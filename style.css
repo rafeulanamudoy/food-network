@@ -123,6 +123,8 @@ body{
 
     display: flex;
     margin-bottom: 150px;
+
+
 }
 .half-width{
     width: 50%;
@@ -140,31 +142,57 @@ body{
     margin-top:100px;
 }
 
+
 .food-items{
 
 
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left:5%;
+    margin-right:5%;
     padding:30px;
+
+
+
 
 
     border-radius: 30px ;
 
     box-shadow: 10px 10px 50px gray;
 
-    text-align:justify;
+
 
 }
 .food-items img{
 
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
+
+
+#aligh-items{
+
+    align-items: center;
+    justify-content: center;
+    margin-left:5%;
+    margin-right:5%;
+
+
+     border-radius: 30px ;
+
+     box-shadow: 10px 10px 50px gray;
+
+ }
+ .user-data{
+
+     padding:20px;
+
+ }
+
 #footer{
     text-align: center ;
+    color: white;
 
-    margin: auto;
-    background-color: rgb(77, 63, 156);
+
+    background-color: rgb(2, 2, 31);
 }
